@@ -2,7 +2,7 @@
 
 ## Description
 
-A new Flutter project.
+A interactive resume application that will seemlessly work between desktop and mobile, as well as, android, iOS, and windows machines.
 
 ## Purpose
 
@@ -10,10 +10,6 @@ Generally, whenever I learn something new, I build my current resume. I have the
 offers flexibility to be able to utilize different data structures, techniques, etc.
 
 ## Board
-
-### Task R001
-Build out the header widget
-Should fill around 10% of the vh
 
 ### Task R002
 Build out main content widget
@@ -27,9 +23,12 @@ Should fill around 10% of the vh
 Add functional swiping: left, right, up, down
 Display different colors for each swipe for the time being
 
-## Flutter Documentation (Remove Later)
+## Completed Tasks
 
-This project is a starting point for a Flutter application.
+### Task R001
+Build out the header widget with minimal details
+
+## Flutter Documentation (Remove Later)
 
 A few resources to get you started if this is your first Flutter project:
 

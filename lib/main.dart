@@ -13,16 +13,24 @@ class Demo extends StatelessWidget {
     
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white10,
+        backgroundColor: Colors.white70,
+        appBar: AppBar(
+          title: Center(
+            child: Text(
+              james.title()
+            )
+          ),
+        ),
         body: Center(
           child: Container(
             height: 300,
             width: 300,
-            color: Colors.white,
-            // color: Color.fromRGBO(50, 48, 50, 100),
-            child: Center(
-              child: Text(james.title())
-            )
+            padding: EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(24),
+            ),
+            child: Text("the body")
           ),
         ),
       ),
