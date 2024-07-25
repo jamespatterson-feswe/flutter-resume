@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  var james = Person("James Patterson", "SWE");
+  var james = Person('James Patterson', 'SWE');
 
   // ignore: -- testing purposes, will remove soon, avoid_print
   print(james.title());
@@ -23,16 +23,16 @@ class Demo extends StatelessWidget {
 }
 
 class Person {
-  var company = "Branding Brand";
-  var name = "";
-  var occupation = "";
+  var company = 'Branding Brand';
+  var name = '';
+  var occupation = '';
   
-  List options = ["main", "download", "experience", "technology", "information"];
+  List options = ['main', 'download', 'experience', 'technology', 'information'];
 
   String title() {
-    return "${(name != "" && occupation != "")
-      ? "$name | $company | $occupation | "
-      : ""}Interactive Resume";
+    return '${(name != '' && occupation != '')
+      ? '$name | $company | $occupation | '
+      : ''}Interactive Resume';
   }
 
   Person(this.name, this.occupation);
