@@ -33,16 +33,25 @@ class Demo extends StatelessWidget {
                 onPressed: () {},
               )
             ]),
-        body: Center(
-          child: Container(
-              height: 300,
-              width: 300,
-              padding: EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(24),
-              ),
-              child: Text("the body")),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+                height: (MediaQuery.of(context).size.height / 3),
+                width: MediaQuery.of(context).size.width,
+                color: Colors.red),
+            Expanded(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                color: Colors.white
+              )
+            ),
+            Container(
+                height: (MediaQuery.of(context).size.height / 3),
+                width: MediaQuery.of(context).size.width,
+                color: Colors.blue
+            ),
+          ],
         ),
       ),
     );
